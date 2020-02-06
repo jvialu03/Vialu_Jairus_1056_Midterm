@@ -16,7 +16,7 @@ An editor, git and adobe
 ### Author
 Jairus Vialu - *Planning, Development, Design*
 
-## License
+### License
 This project is licensed under MIT licence.
 
 
