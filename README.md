@@ -1,9 +1,9 @@
 # Midterm Assignment: Static Website Design
 
 ## Brand Based Website
-This is the FIP based static website with 5 pages using proper semantic tagging and flexbox. This website will CSS3 animation along with a first draft of the FIP vectorized logo.
+This is the FIP based static website with 5 pages using proper semantic tagging and flexbox. This website will include CSS3 animation along with a first draft of the FIP vectorized logo.
 
-This build contains 5 wireframes created before the creation of the website.
+This build also contains 5 wireframes created before the creation of the website.
 
 ### Getting Started
 This is a basic HTML and CSS build.
