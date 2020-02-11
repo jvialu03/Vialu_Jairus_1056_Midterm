@@ -32,8 +32,11 @@ body {
 .logo {
 	width: 273px;
 	height: 151px;
-	background-color: #ddd;
 	margin: 34px 0  0 40px;
+}
+
+.logo img {
+	padding-left: 56px;
 }
 
 .headerNav {
@@ -52,6 +55,39 @@ body {
 	text-transform: uppercase;
 	color: #fff;
 	font-size: 21px;
+}
+
+.mouse {
+	position: absolute;
+	top: 32%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.scroll {
+	width: 30px;
+	height: 50px;
+	border: 2px solid #ceaa5f;
+	border-radius: 60px; 
+}
+
+.mouse::before {
+	content: "";
+	width: 10px;
+	height: 15px;
+	border-radius: 50px;
+	position: absolute;
+	top: 10px;
+	background: #ceaa5f;
+	left: 38%;
+	opacity: 1;
+	animation: mouse 1s infinite alternate; 
+}
+
+@keyframes mouse {
+	to {
+		transform: translate(0, 10px) scale(1, 0.7);
+	}
 }
 /* header section */
 
@@ -222,6 +258,14 @@ body {
 
 .beers-left {
 	margin-left: 220px;
+}
+
+.beers-left img:hover, .beers-right img {
+	transition: box-shadow .3s
+}
+
+.beers-left img:hover, .beers-right img:hover {
+	box-shadow: 0 0 8px #d81b20;
 }
 
 .beers-right {
