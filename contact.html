@@ -6,15 +6,18 @@
 
 	<link rel="stylesheet" href="css/reset.css" media="screen">
 	<link rel="stylesheet" href="css/main.css" media="screen">
+
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:500,700&display=swap" rel="stylesheet"> 
 </head>
 <body>
 	<h1 class="hidden">Tucks Beer</h1>
 	<div class="container">
 	<!-- header start -->
-	<header class="mainheader">
+	<header class="mainHeader">
 		<h2 class="hidden">Header</h2>
 		<div class="logo"><img src=""></div>
-		<nav>
+		<nav class="headerNav">
+			<h3 class="hidden">Header Nav</h3>
 			<ul>
 				<li><a href="index.html">Home</a></li>
 				<li><a href="about.html">Our Story</a></li>
@@ -32,39 +35,46 @@
 			<div id="contactUs">
 				<h3 class="hidden">Contact Us</h3>
 				<div id="contactMsg">
-					<p>If you have any questions or feedbacks about our products, services or website, feel free to fill up the information. We would be glad to be in contact with you. </p>
+					<h4>Get In Touch With Us</h4>
+					<p>If you have any questions or feedbacks about our products, services or website, feel free to fill up the information below. We would be glad to be in contact with you. </p>
 				</div>
 			</div>
 
-			<div id="formInfo">
-				<h3 class="hidden">ContactInfo</h3>
-				<p>248 Bryant Rd. London, Ontario Canada</p>
-				<p>tucks_beer@craftbeer.com</p>
-				<p>(321)-024-080</p>
-			</div>
 
-			<div id="contactForm">
-				<h3 class="hidden"></h3>
-				<form action="" method="get" id="form">
-					<input type="text" placeholder="Name">
-            		<input type="email" placeholder="Email">
-            		<textarea placeholder="Message"></textarea>
-            		<input type="submit" value="Send">
-				</form>
+			<div id="formAndInfo">
+				<div id="info">
+					<h3 class="hidden">ContactInfo</h3>
+					<div id="contactInfo">
+						<p>248 Bryant Rd. London, Ontario Canada</p>
+						<p>tucks_beer@beer.com</p>
+						<p>(321)-024-080</p>
+					</div>
+				</div>
+
+				<div id="contactForm">
+					<h3 class="hidden"></h3>
+					<form action="" method="get" id="form">
+						<input type="text" placeholder="Name" style="width: 300px;"><br><br>
+	            		<input type="email" placeholder="Email" style="width: 300px;"><br><br>
+	            		<textarea placeholder="Message" style="width: 469px; height: 129px;"></textarea><br><br>
+	            		<input type="submit" value="Submit">
+					</form>
+				</div>
 			</div>
 		</section>
 	<!-- content end -->
 
 	<!-- footer start -->
 	<footer class="mainFooter">
-		<h2 class="hidden">Footer</h2>
+		<h2 class="hidden">Main Footer</h2>
 		<div class="footer">
 			<h3 class="hidden">footer</h3>
 			<nav class="footerNav">
+				<h3 class="hidden">Footer Nav</h3>
 				<ul>
 					<li><a href="index.html">Home</a></li>
 					<li><a href="about.html">Our Story</a></li>
-					<li><a href="beer.html">Our Beers</a></li>
+					<li><a href="product.html">Our Beers</a></li>
 					<li><a href="ads.html">Ads</a></li>
 					<li><a href="contact.html">Contact Us</a></li>
 				</ul>
@@ -73,8 +83,11 @@
 		<div class="footerInfo">
 			<h3>Our Information</h3>
 			<p>248 Bryant Rd. London, Ontario Canada</p>
-			<p>tucks_beer@craftbeer.com</p>
+			<p>tucks_beer@beer.com</p>
 			<p>(321)-024-080</p>
+		</div>
+		<div class="copyright">
+			<p>Copyright &copy; 2020 by Jairus Vialu </p>
 		</div>
 	</footer>
 	<!-- footer end -->
